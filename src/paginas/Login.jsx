@@ -3,7 +3,6 @@ import { Link, useNavigate } from "react-router-dom";
 import useAuth from "../hooks/useAuth";
 import { useState } from "react";
 import Alerta from "../components/Alerta";
-import axios from "axios";
 import clienteAxios from '../config/axios';
 
 const Login = () => {
